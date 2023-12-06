@@ -1,0 +1,12 @@
+[package]
+name = "argyle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pqc_kyber = {version = "0.7.1", features = ["std"]}
+rand = "0.8.5"
+pqc_dilithium = "0.2.0"
+pqc_sphincsplus = {version = "0.2.0", features = ["haraka", "f128", "simple"]}
